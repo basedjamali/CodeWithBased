@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    background-image: linear-gradient(to right top, #080509, #200f26, #341141, #490d5e, #60007c);
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 110%;
+}
+
+/* Styling for the Image */
+img {
+    border-radius: 50%;
+    max-width: 100px;
+    object-fit: cover;
+}
+
+.image {
+    padding-top: 35px;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 8%;
+}
+
+/* Styling for the small description */
+p {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    letter-spacing: .7px;
+    text-align: center;
+}
+
+.name {
+    font-size: 16px;
+    color: white;
+    padding-top: 15px;
+}
+
+.description {
+    font-size: 14px;
+    color: rgb(149, 149, 149);
+    padding-top: 4px;
+}
+
+/* Styling for the social media links */
+.socials {
+    padding-top: 33px;
+}
+
+.link {
+    background-color: rgba(0, 0, 0, 0.502);
+    padding: 25px;
+    text-align: center;
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 20px;
+}
+
+.link:hover {
+    -webkit-box-shadow:0px 0px 30px 0px rgba(173,102,255,1);
+    -moz-box-shadow: 0px 0px 30px 0px rgba(173,102,255,1);
+    box-shadow: 0px 0px 30px 0px rgba(173,102,255,1);
+    transition: .5s ease-in;
+}
+
+a {
+    text-decoration: none;
+    font-family: 'Poppins', sans-serif;
+    font-size: 15px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    color: white;
+}
+
+/* For the Tablet */
+
+@media only screen and (max-width: 768px) {
+    .image {
+        display: flex;
+        justify-content: center;
+    }
+}
+
+@media only screen and (max-width: 375px) {
+    .image {
+        display: flex;
+        justify-content: center;
+    }
+}
